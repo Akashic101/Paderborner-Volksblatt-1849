@@ -2,9 +2,9 @@
 
 ---
 
-This repository is a work-in-progress project which includes a scan of every page of the "Paderborner Volksblatt" newspaper from 1849. You can also find a text-file of every page where the text was extracted using [Tesseract OCR](https://github.com/tesseract-ocr/tesseract). The model used was provided by the [Mannheim University Library](https://github.com/UB-Mannheim/Reichsanzeiger) who used OCR to scan in newspaper-editions of the Reichsanzeiger, a trained model based on theirs to fix small issues in recognizing certain characters is currently in the works.
+This repository is a work-in-progress project which includes a scan of every page of the "Paderborner Volksblatt" newspaper from 1849. The pages are from a [facsimile](https://www.wikiwand.com/en/Facsimile) printed in 1979 by the Junfermannsche publisher in Paderborn. You can also find a text-file of every page where the text was extracted using [Tesseract OCR](https://github.com/tesseract-ocr/tesseract). The model used was provided by the [Mannheim University Library](https://github.com/UB-Mannheim/Reichsanzeiger) who used OCR to scan in newspaper-editions of the [Reichsanzeiger](https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/), a trained model based on theirs to fix small issues in recognizing certain characters is currently in the works.
 
-
+Special thanks to the municipal library of Aachen which provided the book-scanner to start this project and Stefan Weil of the Mannheim University Library who helped me finding the right Tesseract-model to use. This project could not have been done with those named.
 
 ## Navigate this repository 
 
