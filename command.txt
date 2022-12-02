@@ -1,1 +1,0 @@
-for %i in (C:\Users\David\Desktop\Tesseract-files\January\png\*.png) do tesseract %i %i -l frak_de

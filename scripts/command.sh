@@ -1,0 +1,1 @@
+for %i in (path\to\images\*.png) do tesseract %i %i -l frak_de
