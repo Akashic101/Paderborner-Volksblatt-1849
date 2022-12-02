@@ -1,0 +1,55 @@
+![cover of Paderborner Volksblatt](https://github.com/Akashic101/Paderborner-Volksblatt-1849/blob/master/assets/Paderborner_Volksblatt_cover.png)
+
+---
+
+This repository is a work-in-progress project which includes a scan of every page of the "Paderborner Volksblatt" newspaper from 1849. You can also find a text-file of every page where the text was extracted using [Tesseract OCR](https://github.com/tesseract-ocr/tesseract). The model used was provided by the [Mannheim University Library](https://github.com/UB-Mannheim/Reichsanzeiger) who used OCR to scan in newspaper-editions of the Reichsanzeiger, a trained model based on theirs to fix small issues in recognizing certain characters is currently in the works.
+
+
+
+## Navigate this repository 
+
+### Scans
+
+If you are looking for raw scans in PDF-format navigate to the [input-folder](https://github.com/Akashic101/Paderborner-Volksblatt-1849/tree/master/input/). There you will find a folder for each month which in turn includes a folder with the raw unedited files and a folder with cropped scans.
+
+```
+├──
+├── input                    
+│   ├── month
+│   |    ├── edited
+│   |         └── page_*.pdf        # Cropped PDF's with border around the pages removed
+│   |    └── raw
+│   |         └── page_*.pdf        # Raw unedited scans with border
+└──
+```
+
+### OCR
+
+If you are looking for the OCR-results head to the [OCR-folder](https://github.com/Akashic101/Paderborner-Volksblatt-1849/tree/master/OCR/) where you will find a folder for every month done so far. In each you will find a folder containing every PDF converted to a PNG and the associated text-file. This text has not yet been reviewed and contains errors. Reviewed files can be found in the [done-folder](https://github.com/Akashic101/Paderborner-Volksblatt-1849/tree/master/January/done) sorted by dates.
+
+```
+├──
+├── OCR                    
+│   ├── month
+│   |    ├── done
+│   |    |     └── page_*.pdf
+│   |    |            └── date
+│   |    |                  ├── page_*.png        # Converted edited PDF's used for OCR-recognition
+│   |    |                  └── page_*.txt        # Reviewed text-files
+│   |    └── png_and_text
+│   |         ├── page_*.png                      # Converted edited PDF's used for OCR-recognition
+│   |         └── page_*.txt                      # Unedited text-files with mistakes
+└──
+```
+
+### Scripts
+
+I use multiple small scripts and commands to aid the process. These can be found in the [scripts-folder](https://github.com/Akashic101/Paderborner-Volksblatt-1849/tree/master/scripts). Following is an explanation what each file does:
+
+`command.sh`
+
+The main command to convert images to text. Change `path\to\images\*.png` to the path corresponding to location of your images. This script will generate the output in a txt-file with the same name as the PNG in the same location as the image. The ´-l frak_de` flag describes the language Tesseract uses to identify characters. This model is not included in Tesseract by default and was instead provided by the Mannheim University Library and can be found [here](https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/frak2021/tessdata_best/) (frak2021_1.069 was used for the Paderborner newspaper).
+
+`fix_s.ps1`
+
+This script is used to fix a very common mistake of the above model where it writes `ſ` instead of `s`. This script goes through each text-file and fixes this mistake by replacing the character. To run it place it in the folder with the text-files you want to modify and run it.
