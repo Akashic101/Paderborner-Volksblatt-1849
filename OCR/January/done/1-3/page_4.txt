@@ -155,7 +155,7 @@ Frucht-Preise.
 (Mittelpreise nach Berliner Scheffel.)
 
 Paderborn, am 30. Dez. 1848. 
-Weizen	.	.	.	1	auf 	24 	Sgr.
+Weizen	.	.	.	1	rt 	24 	Sgr.
 Roggen	.	.	.	1 	=	3	=
 Gerste	.	.	.	- 	=	24	=
 Hafer		.	.	.	- 	=	14	=
@@ -167,13 +167,13 @@ Stroh pro Schock	.	.	3	=	10	=
 
 Cassel, am 23. Dezember
 (Casseler Viertel.)
-Weizen	.	.	.	5	auf 	8 	Sgr.
+Weizen	.	.	.	5	rt 	8 	Sgr.
 Roggen	.	.	.	3 	=	6	=
 Gerste	.	.	.	2 	=	21	=
 Hafer		.	.	.	1 	=	14	=
 
 Neuß, am 26. Dezember.
-Weizen	.	.	.	2	auf 	1 	Sgr.
+Weizen	.	.	.	2	rt 	1 	Sgr.
 Roggen	.	.	.	1 	=	6	=
 Wintergerste	.	.	1 	=	3	=
 Sommergerste	.	.	1 	=	3	=
@@ -186,14 +186,14 @@ Heu pro Zentner	.	.	- 	=	20	=
 Stroh pro Schock	.	.	4	=	12	=
 
 Herdecke, am 18. Dezember.
-Weizen	.	.	.	2	auf 	28 	Sgr.
+Weizen	.	.	.	2	rt 	28 	Sgr.
 Roggen	.	.	.	1 	=	5	=
 Gerste	.	.	.	1 	=	-	=
 Hafer		.	.	.	- 	=	18	=
 
 
 Geld-Cours.
-						auf	Sgr	sh
+						rt 	Sgr	Pf
 Preuß. Friedrichsd'or	.	.	5	20	-
 Auslandische Pistelen .	.	5 	19 	6
 20. Franks-Stück		.	. 	5 	14	6
