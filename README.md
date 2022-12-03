@@ -7,6 +7,13 @@ This repository is a work-in-progress project which includes a scan of every pag
 
 Special thanks to the municipal library of Aachen which provided the book-scanner to start this project and Stefan Weil of the Mannheim University Library who helped me finding the right Tesseract-model to use. This project could not have been done with those named.
 
+## Progress
+
+Scanned: 31/365  
+Cropped: 31/365  
+OCR: 31/365  
+Reviewed: 8/365  
+
 ## Navigate this repository 
 
 ### Scans
