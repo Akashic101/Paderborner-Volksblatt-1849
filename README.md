@@ -12,7 +12,11 @@ Special thanks to the municipal library of Aachen which provided the book-scanne
 Scanned: 31/365  
 Cropped: 31/365  
 OCR: 31/365  
-Reviewed: 8/365  
+Reviewed: 16/365  
+
+## Notes
+
+Currently missing page: First page of 11.1.1849
 
 ## Navigate this repository 
 
