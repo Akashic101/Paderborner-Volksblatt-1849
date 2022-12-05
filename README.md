@@ -12,7 +12,7 @@ Special thanks to the municipal library of Aachen which provided the book-scanne
 Scanned: 31/365  
 Cropped: 31/365  
 OCR: 31/365  
-Reviewed: 16/365  
+Reviewed: 17/365  
 
 ## Notes
 
