@@ -64,4 +64,4 @@ The main command to convert images to text. Change `path\to\images\*.png` to the
 
 `fix_s.ps1`
 
-This script is used to fix a very common issue of the above model where it writes `ſ` instead of `s`. While this is factual correct since this letter is the predecessor of the German ß, it makes the text-files harder to read which is why I chose to replace them. This script goes through each text-file and replaces the character. To run it place it in the folder with the text-files you want to modify and run it.
+This script is used to fix a very common issue of the above model where it writes `ſ` instead of `s`. While this is factual correct since this letter is the predecessor of the German ß (more about this letter can be read [here](https://www.wikiwand.com/en/Long%20s), it makes the text-files harder to read which is why I chose to replace them. This script goes through each text-file and replaces the character. To run it place it in the folder with the text-files you want to modify and run it.
