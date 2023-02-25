@@ -9,8 +9,9 @@ Special thanks to the municipal library of Aachen which provided the book-scanne
 
 ## Progress
 
-Scanned: 31/365  
-Cropped: 31/365  
+Scanned: 365/365 ✔️  
+Cropped: 90/365  
+Sorted: 62/365  
 OCR: 31/365  
 Reviewed: 17/365  
 
